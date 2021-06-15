@@ -1,0 +1,79 @@
+.header {
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  display: block;
+    color: #383535;
+    text-align: center;
+    padding:60px;
+    text-decoration: none; 
+    font-size: 20px;
+   
+}
+ 
+  
+* {
+  box-sizing: border-box;
+}
+
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 4px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 6fr;
+    
+  }
+
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .center {
+    
+    width: 70%;
+  }
+
+  p {
+    text-align: left;
+    font-size: 18px;
+    background-color:#f4f3ed;
+
+  }
+
+ 
+  .img-container {
+    text-align: center;
+  }
+
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 6px;
+  }
+ 
+ 
